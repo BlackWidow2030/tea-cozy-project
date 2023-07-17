@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+    color: seashell;
+    background-color: black;
+    margin: 0;
+    
+    
+    
+}
+
+/* Navigation */
+/* !!!Left and right margin need attention!!!*/
+
+nav img.logo  {
+    height: 50px;
+    float: left;
+    display: inline-block;
+    
+    
+}
+
+nav {
+    background-color: black;
+    margin-top: 0px;
+    margin-right: 10px;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    padding: 10px;
+
+}
+
+
+
+nav li {
+    float: right;
+    padding-right: 20px;
+    list-style: none;
+    z-index: 100;
+    
+}
+
+nav a {
+    text-decoration: underline;
+    color: seashell;
+    opacity: 0.9;
+    
+
+}
+
+/* Mission Section - Top */
+
+section.top {
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    background-image: url("../images/mission-bkgrd.jpeg");
+    background-size: cover ;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.title-mid {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    
+    
+}
+
+h2, h4 {
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+
+/* Middle Section - Images of Tea and their brands */
+
+div.middle {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    color: seashell;
+    
+}
+
+div.month-title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+div.tea-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.tea-images img {
+    height: 200px;
+    width: 300px;
+    align-items: center;
+}
+
+.tea-images figure {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+/* Bottom Section Locations */
+section.bottom {
+   
+    background-image: url(../images/locations-background.jpeg);
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+div.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+    margin: 0 20px;
+   
+    
+
+}
+
+h3.flex-item, p.flex-item {
+    display: flex;
+    
+}
+
+
+
+/* Email and contact section */
+
+div.contact {
+    text-align: center;
+}
+div.email {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+footer {
+    margin-left: 20px;
+}
