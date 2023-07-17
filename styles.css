@@ -17,7 +17,6 @@ body {
 }
 
 /* Navigation */
-/* !!!Left and right margin need attention!!!*/
 
 nav img.logo  {
     height: 50px;
@@ -68,7 +67,7 @@ section.top {
     display: flex;
     height: 700px;
     width: 1200px;
-    background-image: url("../images/mission-bkgrd.jpeg");
+    background-image: url("mission-bkgrd.jpeg");
     background-size: cover ;
     align-items: center;
     justify-content: center;
@@ -130,7 +129,7 @@ div.tea-images {
 /* Bottom Section Locations */
 section.bottom {
    
-    background-image: url(../images/locations-background.jpeg);
+    background-image: url(locations-background.jpeg);
     background-size: cover;
     height: 500px;
     width: 1200px;
